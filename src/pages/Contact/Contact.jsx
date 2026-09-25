@@ -25,7 +25,7 @@ function Contact() {
 
           <div className="info-item">
             <FaEnvelope className="contact-icon"/>
-            <span>aminehamzaoui1925@gmail.com</span>
+            <span>mahmudulislami1234@gmail.com</span>
           </div>
 
           <div className="info-item">

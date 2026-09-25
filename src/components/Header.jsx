@@ -1,7 +1,7 @@
 import "./Header.css"
 import { useState, useEffect } from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faGithub, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons"
+import { faYoutube } from "@fortawesome/free-brands-svg-icons"
 
 function Header() {
 
@@ -24,7 +24,7 @@ function Header() {
     return (
         <header className={scrolled ? "header scroll" : "header"}>
             <div className="logo">
-                <h1><span>a</span>mine</h1>
+                <h1><span>Toha</span> Al–Mahmudu</h1>
             </div>
 
             <ul className="links">
@@ -35,10 +35,8 @@ function Header() {
                 <li><a href="#contact">Contact</a></li>
             </ul>
 
-            <ul className="icons">
-                <li><a href="#"><FontAwesomeIcon icon={faGithub} /></a></li>
-                <li><a href="#"><FontAwesomeIcon icon={faInstagram} /></a></li>
-                <li><a href="#"><FontAwesomeIcon icon={faLinkedin} /></a></li>
+                                    <ul className="icons">
+                <li><a href="https://youtube.com/@tohaalmahmudi001?si=aaFI0H53C64bezQI"><FontAwesomeIcon icon={faYoutube} /></a></li>
             </ul>
         </header>
     )

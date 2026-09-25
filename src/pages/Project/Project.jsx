@@ -3,51 +3,28 @@ import "./Project.css";
 import img1 from "../../assets/images/Cleveroad.jpg";
 import img2 from "../../assets/images/Capture d'écran 2025-10-22 182207.png";
 import img3 from "../../assets/images/Weather Forecast Dashboard.jpg";
-import img4 from "../../assets/images/WordPress dashboard design concept.jpg";
-import img5 from "../../assets/images/Game Dashboard Design.jpg";
-import img6 from "../../assets/images/Task manager app.jpg";
+
+
+
 
 const projects = [
   {
-    title: "E-Commerce Website",
+    title: "VYROX",
     img: img1,
-    desc: "Modern online store with product filtering, cart, and payment system.",
-    skills: ["HTML", "CSS", "JavaScript"]
+    desc: "AI-powered cinematic storytelling and video production.",
+    skills: ["AI", "Creative Tech"]
   },
-
   {
-    title: "Portfolio Website",
+    title: "YouTube Content",
     img: img2,
-    desc: "Personal portfolio to showcase my design and coding projects.",
-    skills: ["HTML", "CSS", "Bootstrap"]
+    desc: "Digital creation and audience development.",
+    skills: ["Digital", "Media"]
   },
-
   {
-    title: "Weather App",
+    title: "Personal Portfolio",
     img: img3,
-    desc: "Responsive app showing real-time weather data using API integration.",
-    skills: ["HTML", "CSS", "API"]
-  },
-
-  {
-    title: "Blog Website",
-    img: img4,
-    desc: "Clean and simple blogging platform with markdown support.",
-    skills: ["HTML", "Tailwind", "JavaScript"]
-  },
-
-  {
-    title: "Game Landing Page",
-    img: img5,
-    desc: "Landing page for a game with animations and parallax effects.",
-    skills: ["HTML", "CSS", "GSAP"]
-  },
-
-  {
-    title: "Task Manager",
-    img: img6,
-    desc: "Task tracking web app with CRUD features and clean UI.",
-    skills: ["HTML", "CSS", "JS"]
+    desc: "Digital identity and web development.",
+    skills: ["Web", "Portfolio"]
   }
 ];
 

@@ -66,3 +66,15 @@
     color:#343232;
     line-height:1.6;
 }
+@media (max-width: 768px) {
+    .services-container {
+        flex-direction: column;
+    }
+    .services, .service-card {
+        width: 100%;
+        max-width: 100%;
+    }
+    .title {
+        font-size: 32px;
+    }
+}

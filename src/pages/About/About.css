@@ -103,3 +103,15 @@
     color:#333333;
     text-align:left;
 }
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+    }
+    .about, .photo-card, .text-about {
+        width: 100%;
+        max-width: 100%;
+    }
+    .title {
+        font-size: 32px;
+    }
+}
