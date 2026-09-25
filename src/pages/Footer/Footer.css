@@ -34,3 +34,11 @@
     transform:translateY(-4px) scale(1.2);
     color:white;
 }
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        width: 100%;
+        max-width: 100%;
+        gap: 20px;
+    }
+}

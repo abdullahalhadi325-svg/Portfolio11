@@ -33,3 +33,15 @@ overflow:hidden;
   transform: translateY(-3px);
   box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 }
+
+@media (max-width: 768px) {
+    .buttn {
+        flex-direction: column;
+    }
+    .content h1 {
+        font-size: 32px !important;
+    }
+    .content h2 {
+        font-size: 18px !important;
+    }
+}

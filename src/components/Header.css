@@ -107,3 +107,22 @@ ul{
     transform:scale(1.15);
     text-shadow:0 0 8px rgba(119,119,119,0.8);
 }
+@media (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+    .header {
+        flex-direction: column;
+        width: 100%;
+        max-width: 100%;
+        padding: 10px;
+        position: relative;
+    }
+    ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .logo h1 {
+        font-size: 20px;
+    }
+}

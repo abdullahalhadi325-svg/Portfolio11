@@ -1,5 +1,5 @@
 import "./Services.css"
-import { FaCode, FaPalette, FaLaptopCode } from "react-icons/fa";
+import { FaCode, FaPalette, FaLaptopCode, FaShieldAlt } from "react-icons/fa";
 
 function Services(){
 
@@ -14,20 +14,26 @@ function Services(){
 
         <div className="service-card">
           <FaCode className="service-icon"/>
-          <h3>Frontend Development</h3>
-          <p>I build modern and interactive websites using React, HTML, CSS, JavaScript, Node.Js, Php, MySql and Next.js.</p>
+          <h3>AI & Creative Technology</h3>
+          <p>Prompt Engineering, AI Content</p>
         </div>
 
         <div className="service-card">
           <FaPalette className="service-icon"/>
-          <h3>UI Design</h3>
-          <p>Creating clean and modern user interfaces with focus on design and usability.</p>
+          <h3>Digital & Technology</h3>
+          <p>Website Creation, Tech Troubleshooting</p>
         </div>
 
         <div className="service-card">
           <FaLaptopCode className="service-icon"/>
-          <h3>Web Applications</h3>
-          <p>Building modern web applications with dynamic features and smooth performance.</p>
+          <h3>Creative Media</h3>
+          <p>Video Editing, Graphic Design</p>
+        </div>
+
+        <div className="service-card">
+          <FaShieldAlt className="service-icon"/>
+          <h3>Cybersecurity</h3>
+          <p>Ethical Hacking, Security Research</p>
         </div>
 
       </div>

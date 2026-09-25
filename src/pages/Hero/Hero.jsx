@@ -12,8 +12,12 @@ export default function Hero() {
         dpi={1.5}
         sdkUrl="https://cdn.jsdelivr.net/gh/hiunicornstudio/unicornstudio.js@2.1.3/dist/unicornStudio.umd.js"
       />
-      <div className="content">
-        <div className="buttn">
+      <div className="content" style={{textAlign: "center", color: "white"}}>
+        <h1>Toha Al–Mahmudu</h1>
+        <h2>Creative Technologist • Researcher • Writer</h2>
+        <p>Think Deeper. Create Fearlessly. Shape What’s Next.</p>
+        <p>Exploring technology, ideas, creativity, and the possibilities of tomorrow.</p>
+        <div className="buttn" style={{marginTop: "20px"}}>
           <a href="#">Contact</a>
           <a href="#">Who i'm</a>
         </div>

@@ -40,12 +40,12 @@ function About() {
 
         <div className="text-about">
           <p>
-            Hi, I'm Amine, a passionate Frontend Developer and Computer Science student.
-            I enjoy building modern, responsive, and interactive web interfaces that provide
-            a great user experience. I focus on clean design, smooth animations, and writing
-            efficient code using modern web technologies. I'm always learning new tools and
-            improving my skills to create better digital products. My goal is to combine
-            creativity with technology to build websites that are both beautiful and functional.
+            Deeply interested in AI, digital tools, cybersecurity, and creative technology. Naturally curious, enjoys problem-solving, storytelling, and understanding the rapidly changing digital world.
+
+            Education: Hifz al-Qur’an (Sylhet Bagha Madrasa),
+            Mawlana Studies (Moulvibazar Darul Uloom Title Madrasa - Currently studying),
+            SSC (Uttarmunai Malliksarai Fazil Madrasa - Completed).
+
           </p>
         </div>
 

@@ -118,3 +118,15 @@
     background:#333;
     color:#fff;
 }
+@media (max-width: 768px) {
+    .projects-container {
+        grid-template-columns: 1fr;
+    }
+    .project {
+        width: 100%;
+        max-width: 100%;
+    }
+    .title {
+        font-size: 32px;
+    }
+}

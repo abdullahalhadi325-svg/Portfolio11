@@ -1,5 +1,5 @@
 import "./Footer.css"
-import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
 
 function Footer(){
 
@@ -9,13 +9,11 @@ function Footer(){
 
       <div className="footer-container">
 
-        <p>© 2026 Amine Hamzaoui</p>
+        <p>© 2026 Toha Al–Mahmudu</p>
 
         <div className="social-icons">
 
-          <a href="#"><FaGithub/></a>
-          <a href="#"><FaLinkedin/></a>
-          <a href="#"><FaInstagram/></a>
+          <a href="https://youtube.com/@tohaalmahmudi001?si=aaFI0H53C64bezQI"><FaYoutube/></a>
 
         </div>
 
